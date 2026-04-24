@@ -2,8 +2,10 @@ package forms;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 
-public class principal {
+
+public class principal extends JFrame {
 
     private JPanel panelMain;
     private JPanel tablero;
@@ -30,6 +32,11 @@ public class principal {
 
 
 
+    }
+
+    private void abrirUsuario(ActionEvent e){
+        usuario ventanaUsuario = new usuario(this);
+        ventanaUsuario.setVisible(true);
     }
 
 
