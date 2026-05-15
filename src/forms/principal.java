@@ -49,13 +49,13 @@ public class principal extends JFrame {
 
         tablero.setPreferredSize(new Dimension(500, 300));
         tablero.setLocation(20,40);
-        tablero.setBackground(new Color(139, 188, 156));
+ /*       tablero.setBackground(new Color(139, 188, 156)); */
 
 
         etiquetas[0][0] = Cuadro1;  etiquetas[0][1] = Cuadro2;   etiquetas[0][2] = Cuadro3;  etiquetas[0][3] = Cuadro4;
-        etiquetas[1][1] = Cuadro5;  etiquetas[1][0] = Cuadro6;   etiquetas[1][2] = Cuadro7;  etiquetas[1][3] = Cuadro8;
-        etiquetas[2][2] = Cuadro9;  etiquetas[2][0] = Cuadro10;  etiquetas[2][1] = Cuadro11; etiquetas[2][3] = Cuadro12;
-        etiquetas[3][3] = Cuadro13; etiquetas[3][0] = Cuadro14;  etiquetas[3][1] = Cuadro15; etiquetas[3][2] = Cuadro16;
+        etiquetas[1][0] = Cuadro5;  etiquetas[1][1] = Cuadro6;   etiquetas[1][2] = Cuadro7;  etiquetas[1][3] = Cuadro8;
+        etiquetas[2][0] = Cuadro9;  etiquetas[2][1] = Cuadro10;  etiquetas[2][2] = Cuadro11; etiquetas[2][3] = Cuadro12;
+        etiquetas[3][0] = Cuadro13; etiquetas[3][1] = Cuadro14;  etiquetas[3][2] = Cuadro15; etiquetas[3][3] = Cuadro16;
 
 
         for(int i=0; i<4; i++){
@@ -87,12 +87,15 @@ public class principal extends JFrame {
         for(int fila=0; fila<4; fila++){
             for(int columna=0; columna<4; columna++){
                 int valor = matrizLogica[fila][columna];
+                etiquetas[fila][columna].setOpaque(true);
 
                 etiquetas[fila][columna].setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
-                etiquetas[fila][columna].setOpaque(true);
+
 
                 etiquetas[fila][columna].setHorizontalAlignment(SwingConstants.CENTER);
                 etiquetas[fila][columna].setVerticalAlignment(SwingConstants.CENTER);
+                etiquetas[fila][columna].setHorizontalTextPosition(SwingConstants.CENTER);
+                etiquetas[fila][columna].setFont(new Font("Arial", Font.BOLD, 35));
 
 
 
@@ -102,6 +105,18 @@ public class principal extends JFrame {
                     etiquetas[fila][columna].setText(String.valueOf(valor));
 
                 }
+
+                switch  (valor){
+                    case 2: etiquetas[fila][columna].setBackground(new Color(219, 173, 106));
+                    break;
+                    case 4: etiquetas[fila][columna].setBackground(new Color(98, 131, 149));
+                    break;
+                    case 8: etiquetas[fila][columna].setBackground(new Color(207, 153, 95));
+                    break;
+                    case 16: etiquetas[fila][columna].setBackground(new Color(127, 239, 189));
+                    break;
+                }
+
             }
         }
     }
