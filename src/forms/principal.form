@@ -21,7 +21,7 @@
         </properties>
         <border type="none"/>
         <children>
-          <component id="f191a" class="javax.swing.JLabel">
+          <component id="f191a" class="javax.swing.JLabel" binding="Cuadro1">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -42,7 +42,7 @@
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
           </vspacer>
-          <component id="a3f59" class="javax.swing.JLabel">
+          <component id="a3f59" class="javax.swing.JLabel" binding="Cuadro2">
             <constraints>
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -51,7 +51,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="5de17" class="javax.swing.JLabel">
+          <component id="5de17" class="javax.swing.JLabel" binding="Cuadro3">
             <constraints>
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -60,7 +60,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="23163" class="javax.swing.JLabel">
+          <component id="23163" class="javax.swing.JLabel" binding="Cuadro4">
             <constraints>
               <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -69,7 +69,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="90c5f" class="javax.swing.JLabel">
+          <component id="90c5f" class="javax.swing.JLabel" binding="Cuadro5">
             <constraints>
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -78,7 +78,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="4c26b" class="javax.swing.JLabel">
+          <component id="4c26b" class="javax.swing.JLabel" binding="Cuadro6">
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -87,7 +87,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="a2a73" class="javax.swing.JLabel">
+          <component id="a2a73" class="javax.swing.JLabel" binding="Cuadro7">
             <constraints>
               <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -96,7 +96,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="13694" class="javax.swing.JLabel">
+          <component id="13694" class="javax.swing.JLabel" binding="Cuadro8">
             <constraints>
               <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -105,7 +105,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="98ac4" class="javax.swing.JLabel">
+          <component id="98ac4" class="javax.swing.JLabel" binding="Cuadro9">
             <constraints>
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -114,7 +114,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="46e78" class="javax.swing.JLabel">
+          <component id="46e78" class="javax.swing.JLabel" binding="Cuadro10">
             <constraints>
               <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -123,7 +123,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="9ddb6" class="javax.swing.JLabel">
+          <component id="9ddb6" class="javax.swing.JLabel" binding="Cuadro11">
             <constraints>
               <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -132,7 +132,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="225f" class="javax.swing.JLabel">
+          <component id="225f" class="javax.swing.JLabel" binding="Cuadro12">
             <constraints>
               <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -141,7 +141,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="58deb" class="javax.swing.JLabel">
+          <component id="58deb" class="javax.swing.JLabel" binding="Cuadro13">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -150,7 +150,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="99da" class="javax.swing.JLabel">
+          <component id="99da" class="javax.swing.JLabel" binding="Cuadro14">
             <constraints>
               <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -159,7 +159,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="aea0c" class="javax.swing.JLabel">
+          <component id="aea0c" class="javax.swing.JLabel" binding="Cuadro15">
             <constraints>
               <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -168,7 +168,7 @@
               <text value="Label"/>
             </properties>
           </component>
-          <component id="8e2e5" class="javax.swing.JLabel">
+          <component id="8e2e5" class="javax.swing.JLabel" binding="Cuadro16">
             <constraints>
               <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
@@ -215,6 +215,14 @@
         <border type="none"/>
         <children/>
       </grid>
+      <component id="616ad" class="javax.swing.JButton" binding="Login">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="LOGIN"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
